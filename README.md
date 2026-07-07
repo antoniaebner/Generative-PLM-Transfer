@@ -206,7 +206,7 @@ Vendored source files (`src/models/protxlstm/`, `src/models/mamba/`, `src/models
 **Citation:**
 
 ```bibtex
-@mastersthesis{ebner2025generative,
+@mastersthesis{ebner2026generative,
   author  = {Ebner, Antonia},
   title   = {On the Transferability and Scalability of Generative Homology-Aware Protein Language Models},
   school  = {Johannes Kepler University Linz},
