@@ -1,0 +1,7 @@
+*__pycache__*
+logs/*
+embeddings*
+.vscode/*
+pretrain_checkpoints/*
+data*
+models/*

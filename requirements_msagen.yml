@@ -1,0 +1,10 @@
+name: msagen
+
+channels:
+- conda-forge
+- bioconda
+
+dependencies:
+- python=3.13.1
+- mmseqs2=15
+- pandas=2.2.3
