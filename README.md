@@ -6,9 +6,9 @@
 
 ---
 
-Can a protein language model that learned to *generate* sequences double as a good *feature extractor*? This repo puts three generative, homology-aware PLMs — **PoET**, **ProtMamba**, and **Prot-xLSTM** — on the stand as **frozen encoders** and asks how well (and *why*) their embeddings transfer to downstream prediction tasks.
+This repository investigates whether protein language models trained as generative models can serve as effective *feature extractors*. We evaluate three generative, homology-aware PLMs — **PoET**, **ProtMamba**, and **Prot-xLSTM** — as **frozen encoders**, and study how well, and why, their embeddings transfer to a diverse set of downstream prediction tasks.
 
-We probe transferability (is the win over a one-hot baseline from overparameterization, inductive bias, or weight statistics?) and trace how it **scales** along four axes:
+We analyze transferability — asking whether any improvement over a one-hot baseline stems from overparameterization, inductive bias, or weight statistics — and characterize how it **scales** along four axes:
 
 | Axis | What varies | Controlled by |
 | --- | --- | --- |
@@ -143,7 +143,7 @@ Each line calls `run_pregen_emb.py`, e.g.:
 
 ```bash
 python run_pregen_emb.py \
-    --dataset_path="data/proeng/gb1/two_vs_rest.csv" \
+    --dataset_path="data/proeng/gb1/sampled.csv" \
     --msa_path="msas/individual_msas/proeng/gb1_trunc/gb1_trunc_memmap" \
     --encoder_name="protxlstm_102M_60B" \
     --checkpoint_folder="pretrain_checkpoints/protxlstm" \
