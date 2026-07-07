@@ -2,7 +2,7 @@
 
 **Master's thesis — Antonia Theres Ebner, BSc** · Johannes Kepler University Linz
 
-📄 **[Thesis (PDF)](ADD_PDF_LINK_HERE)** · 📦 **[Preprocessed data (Zenodo, DOI 10.5281/zenodo.21235210)](https://doi.org/10.5281/zenodo.21235210)** · 💻 **[GitHub](https://github.com/antoniaebner/Generative-PLM-Transfer)**
+📄 **[Thesis (PDF)](ADD_PDF_LINK_HERE)** · 📦 **[Preprocessed data (Zenodo, DOI 10.5281/zenodo.21235210)](https://zenodo.org/records/21235210)** · 💻 **[GitHub](https://github.com/antoniaebner/Generative-PLM-Transfer)**
 
 ---
 
@@ -85,7 +85,7 @@ Most stages run in `gen_prottl` (use `mlm_prottl` for the CARP/ESM baselines). `
 
 ## Downloading data, checkpoints & model weights
 
-**Preprocessed datasets** are on Zenodo: [10.5281/zenodo.21235210](https://doi.org/10.5281/zenodo.21235210). Download and unzip into place (`data/`)
+**Preprocessed datasets** are on Zenodo: [10.5281/zenodo.21235210](https://zenodo.org/records/21235210). Download and unzip into place (`data/`)
 
 
 **Model weights** come from each model's original source:
