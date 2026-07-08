@@ -35,7 +35,7 @@ We analyze transferability — asking whether any improvement over a one-hot bas
 conda env create -f requirements_clm.yml      # -> gen_prottl
 conda env create -f requirements_mlm.yml      # -> mlm_prottl
 conda env create -f requirements_msagen.yml   # -> msagen
-pip install -e . --no-deps
+pip install -e .[gen_prottl, mlm_prottl] --no-deps
 
 # 2. Grab the data + checkpoints, then build the search databases
 #    (see the sections below for the Zenodo links)
