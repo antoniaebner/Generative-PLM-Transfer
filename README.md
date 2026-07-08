@@ -189,7 +189,7 @@ python run_protran_sklearn.py \
 python run_results_analysis.py
 ```
 
-For the interactive figures and thesis analyses (context-size ablations, tokenization checks, reproduction checks, …), see the notebooks in `notebooks/`.
+For the interactive figures, see the notebooks in `notebooks/`.
 
 ## Acknowledgments, citation & license
 
